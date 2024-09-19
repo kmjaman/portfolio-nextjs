@@ -31,7 +31,32 @@ const Projects = () => {
                     </a>
                 </div>
             </div>
-            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                {/* <!-- Project 4 --> */}
+                <div className="bg-gray-100 dark:bg-gray-700 p-6 rounded-lg shadow-lg">
+                    <a href="https://pyxone.pythonanywhere.com/donate">
+                        <img src="images/project-04.png" alt="Project 1" className="rounded-lg mb-4" />
+                        <h3 className="text-2xl font-bold mb-2">Donate Love</h3>
+                        <p className="text-gray-700 dark:text-gray-400">This is a donation project designed with Bootstrap where anyone can donate money for a cause.</p>
+                    </a>
+                </div>
+                {/* <!-- Project 5 --> */}
+                <div className="bg-gray-100 dark:bg-gray-700 p-6 rounded-lg shadow-lg">
+                    <a href="https://github.com/jaman-dci/django-todo-app">
+                        <img src="images/project-05.png" alt="Project 2" className="rounded-lg mb-4" />
+                        <h3 className="text-2xl font-bold mb-2">Todo List</h3>
+                        <p className="text-gray-700 dark:text-gray-400">This is a Django Todo List app that helps you manage your tasks efficiently. You can create tasks as well as delete them when completed.</p>
+                    </a>
+                </div>
+                {/* <!-- Project 6 --> */}
+                <div className="bg-gray-100 dark:bg-gray-700 p-6 rounded-lg shadow-lg">
+                   <a href="#">
+                    <img src="images/project-06.png" alt="Project 3" className="rounded-lg mb-4" />
+                    <h3 className="text-2xl font-bold mb-2">My Portfolio</h3>
+                    <p className="text-gray-700 dark:text-gray-400">My personal portfolio project. This project showcases an overview of some of the projects I worked on.</p>
+                   </a>
+                </div>
+            </div>
         </div>
     </section>
   )
