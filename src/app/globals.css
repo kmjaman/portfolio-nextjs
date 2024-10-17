@@ -25,3 +25,16 @@ body {
     text-wrap: balance;
   }
 }
+
+
+/* Transition effect for the header */
+.header-transition {
+  transition: background-color 0.3s ease;
+}
+/* Background color for the header when scrolled */
+.bg-scrolled {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.bg-scrolled-dark {
+  background-color: rgba(31, 41, 55, 0.9);
+}
